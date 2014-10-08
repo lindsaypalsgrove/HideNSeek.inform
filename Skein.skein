@@ -1,0 +1,3208 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x421880" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x421880" />
+  <item nodeId="node-0x421880">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Your friends decided to play a fun game of hide and seek, but there is a twist! The game will take place in the dark and to find people you need to see them with your flashlight. Everyone starts in the basement! You are the seeker and you need to find everyone. (*MAKE SURE WHEN YOU FIND THEM, YOU TAKE THEM WITH YOU*) Ready? Go!
+
+HideNSeek
+An Interactive Fiction by lindsay palsgrove
+Release 1 / Serial number 140915 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD
+
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="103">NO</temporary>
+    <children>
+      <child nodeId="node-0x41bf50" />
+      <child nodeId="node-0x41cff0" />
+      <child nodeId="node-0x41edb0" />
+      <child nodeId="node-0x41f830" />
+      <child nodeId="node-0x421650" />
+    </children>
+  </item>
+  <item nodeId="node-0x421650">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4216c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4216c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bathroom
+This bathroon is kind of creepy! You don&apos;t think anyone is in the room. You see some footprints going east to the bedroom. Let&apos;s go check it out!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x421730" />
+    </children>
+  </item>
+  <item nodeId="node-0x421730">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+This is your room, you know every place to hide in here! You wouldn&apos;t doubt if someone was in here.
+
+You can see Bed, Rug and Desk here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4217e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4217e0">
+    <command xml:space="preserve">bed</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4215f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4215f0">
+    <command xml:space="preserve">look at bed</command>
+    <result xml:space="preserve">You see nothing special about Bed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x421580" />
+    </children>
+  </item>
+  <item nodeId="node-0x421580">
+    <command xml:space="preserve">look at rug</command>
+    <result xml:space="preserve">You see nothing special about Rug.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x421490" />
+    </children>
+  </item>
+  <item nodeId="node-0x421490">
+    <command xml:space="preserve">desk</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x421440" />
+    </children>
+  </item>
+  <item nodeId="node-0x421440">
+    <command xml:space="preserve">xbed</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4213f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4213f0">
+    <command xml:space="preserve">x bed</command>
+    <result xml:space="preserve">You see nothing special about Bed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x421380" />
+    </children>
+  </item>
+  <item nodeId="node-0x421380">
+    <command xml:space="preserve">x desk</command>
+    <result xml:space="preserve">You see nothing special about Desk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x421310" />
+    </children>
+  </item>
+  <item nodeId="node-0x421310">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bathroom
+This bathroon is kind of creepy! You don&apos;t think anyone is in the room. You see some footprints going east to the bedroom. Let&apos;s go check it out!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4211e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4211e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x421190" />
+    </children>
+  </item>
+  <item nodeId="node-0x421190">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x421140" />
+    </children>
+  </item>
+  <item nodeId="node-0x421140">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+This is your room, you know every place to hide in here! You wouldn&apos;t doubt if someone was in here.
+
+You can see Bed, Rug and Desk here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4210f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4210f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bathroom
+This bathroon is kind of creepy! You don&apos;t think anyone is in the room. You see some footprints going east to the bedroom. Let&apos;s go check it out!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4210a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4210a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x421030" />
+    </children>
+  </item>
+  <item nodeId="node-0x421030">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+Something smells bad! Smells like body odor! EWWW! Someone has to be in here! 
+
+You can see Tv, Couch, Lamp and Cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x420fc0">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open Cabinet, revealing Rebecca.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420f50" />
+    </children>
+  </item>
+  <item nodeId="node-0x420f50">
+    <command xml:space="preserve">take rebecca</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x421290" />
+    </children>
+  </item>
+  <item nodeId="node-0x421290">
+    <command xml:space="preserve">x tv</command>
+    <result xml:space="preserve">You see nothing special about Tv.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x421230" />
+    </children>
+  </item>
+  <item nodeId="node-0x421230">
+    <command xml:space="preserve">x couch\</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x420d40">
+    <command xml:space="preserve">x couch</command>
+    <result xml:space="preserve">You see nothing special about Couch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x420cd0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x420c60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x420bf0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x420b80">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You open Fridge, revealing Cookie.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x420b10">
+    <command xml:space="preserve">take cookie</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x420aa0">
+    <command xml:space="preserve">open wooden door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x420a30">
+    <command xml:space="preserve">unlock wooden door</command>
+    <result xml:space="preserve">What do you want to unlock Wooden door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4209c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4209c0">
+    <command xml:space="preserve">unlock wooden door with key</command>
+    <result xml:space="preserve">You unlock Wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420950" />
+    </children>
+  </item>
+  <item nodeId="node-0x420950">
+    <command xml:space="preserve">open wooden door</command>
+    <result xml:space="preserve">You open Wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4208e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4208e0">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">
+Backyard
+It is very chilly outside! We need to find people quick!You hear someone breathing, someone must be here! Let&apos;s find them!
+
+You can see Wooden door, Tree and Shed (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x420e80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x420dd0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x420e20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420630" />
+    </children>
+  </item>
+  <item nodeId="node-0x420630">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Backyard
+It is very chilly outside! We need to find people quick!You hear someone breathing, someone must be here! Let&apos;s find them!
+
+You can see Wooden door, Tree and Shed (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4205c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4205c0">
+    <command xml:space="preserve">open shed</command>
+    <result xml:space="preserve">You open Shed, revealing Joe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420550" />
+    </children>
+  </item>
+  <item nodeId="node-0x420550">
+    <command xml:space="preserve">take joe</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4204e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4204e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420470" />
+    </children>
+  </item>
+  <item nodeId="node-0x420470">
+    <command xml:space="preserve">open wooden door</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420400" />
+    </children>
+  </item>
+  <item nodeId="node-0x420400">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420390" />
+    </children>
+  </item>
+  <item nodeId="node-0x420390">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420320" />
+    </children>
+  </item>
+  <item nodeId="node-0x420320">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bedroom
+This is your room, you know every place to hide in here! You wouldn&apos;t doubt if someone was in here.
+
+You can see Bed, Rug and Desk here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4202b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4202b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420240" />
+    </children>
+  </item>
+  <item nodeId="node-0x420240">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bedroom
+This is your room, you know every place to hide in here! You wouldn&apos;t doubt if someone was in here.
+
+You can see Bed, Rug and Desk here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4201d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4201d0">
+    <command xml:space="preserve">bed</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420160" />
+    </children>
+  </item>
+  <item nodeId="node-0x420160">
+    <command xml:space="preserve">tkae all</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4200f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4200f0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420080" />
+    </children>
+  </item>
+  <item nodeId="node-0x420080">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420010" />
+    </children>
+  </item>
+  <item nodeId="node-0x420010">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ffa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ffa0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ff30" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ff30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420680" />
+    </children>
+  </item>
+  <item nodeId="node-0x420680">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4206f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4206f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+Something smells bad! Smells like body odor! EWWW! Someone has to be in here! 
+
+You can see Tv, Couch, Lamp and Cabinet (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420760" />
+    </children>
+  </item>
+  <item nodeId="node-0x420760">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x4207d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4207d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x420840" />
+    </children>
+  </item>
+  <item nodeId="node-0x420840">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41fec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41fec0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41fe50" />
+    </children>
+  </item>
+  <item nodeId="node-0x41fe50">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41fde0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41fde0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Backyard
+It is very chilly outside! We need to find people quick!You hear someone breathing, someone must be here! Let&apos;s find them!
+
+You can see Wooden door, Tree and Shed (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41fd70" />
+    </children>
+  </item>
+  <item nodeId="node-0x41fd70">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41fd00" />
+    </children>
+  </item>
+  <item nodeId="node-0x41fd00">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Joe
+  Cookie
+  Rebecca
+  key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41fc90" />
+    </children>
+  </item>
+  <item nodeId="node-0x41fc90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41fc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x41fc20">
+    <command xml:space="preserve">eat cookie</command>
+    <result xml:space="preserve">
+
+    *** OH GOD YOU DIED FROM THAT POISONOUS COOKIE! Oh no! That wasn&apos;t a very good cookie! :D ***
+
+
+In that game you scored 2 out of a possible 3, in 51 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41fbb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41fbb0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Kitchen
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41fb40" />
+    </children>
+  </item>
+  <item nodeId="node-0x41fb40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41fad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41fad0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bathroom
+This bathroon is kind of creepy! You don&apos;t think anyone is in the room. You see some footprints going east to the bedroom. Let&apos;s go check it out!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41fa60" />
+    </children>
+  </item>
+  <item nodeId="node-0x41fa60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+This is your room, you know every place to hide in here! You wouldn&apos;t doubt if someone was in here.
+
+You can see Bed, Rug and Desk here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f9f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f9f0">
+    <command xml:space="preserve">look under bed</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f980" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f980">
+    <command xml:space="preserve">look under rug</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f910" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f910">
+    <command xml:space="preserve">look under desk</command>
+    <result xml:space="preserve">Oh my gosh! Blake was under the desk the whole time :o!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f8a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f8a0">
+    <command xml:space="preserve">take blake</command>
+    <result xml:space="preserve">
+
+    *** FINALLY! YOU FOUND EVERYONE! Maybe next time, you&apos;ll be hiding ;) ***
+
+
+In that game you scored 3 out of a possible 3, in 57 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+  </item>
+  <item nodeId="node-0x41f830">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f280" />
+      <child nodeId="node-0x41f7c0" />
+      <child nodeId="node-0x41f670" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f670">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open Wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f3d0" />
+      <child nodeId="node-0x41f590" />
+      <child nodeId="node-0x41f600" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f600">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Kitchen
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="141">YES</temporary>
+  </item>
+  <item nodeId="node-0x41f590">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Backyard
+I hear someone breathing, someone must be here! Let&apos;s find them!
+
+You can see Wooden door, Tree and Shed (closed) here.
+
+Joe follows right behind you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f520" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f520">
+    <command xml:space="preserve">open shed</command>
+    <result xml:space="preserve">You open Shed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f4b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f4b0">
+    <command xml:space="preserve">take joe</command>
+    <result xml:space="preserve">I don&apos;t suppose Joe would care for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="233">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f440" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f440">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Kitchen
+There is a door going to the Backyard north.
+
+You can see Wooden door here.
+
+Joe follows right behind you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="232">YES</temporary>
+  </item>
+  <item nodeId="node-0x41f3d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bedroom
+You can see Bed here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f360" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f360">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Kitchen
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f2f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f2f0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="137">YES</temporary>
+  </item>
+  <item nodeId="node-0x41f7c0">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You open Fridge, revealing Cookie.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="337">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f750" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f750">
+    <command xml:space="preserve">take cookie</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="337">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f6e0">
+    <command xml:space="preserve">eat cookie</command>
+    <result xml:space="preserve">That&apos;s plainly inedible.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="336">YES</temporary>
+  </item>
+  <item nodeId="node-0x41f280">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f210" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f210">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with key)
+You unlock Wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f1a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Wooden door)
+
+Backyard
+It is very chilly outside! We need to find people quick!You hear someone breathing, someone must be here! Let&apos;s find them!
+
+You can see Wooden door, Tree and Shed (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f130" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f130">
+    <command xml:space="preserve">take tree</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f0c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x41f050" />
+    </children>
+  </item>
+  <item nodeId="node-0x41f050">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You open Fridge, revealing Cookie.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x41efe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41efe0">
+    <command xml:space="preserve">take cookie</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ef70" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ef70">
+    <command xml:space="preserve">eat cookie</command>
+    <result xml:space="preserve">
+
+    *** OH GOD YOU DIED FROM THAT POISONOUS COOKIE! Oh no! That wasn&apos;t a very good cookie! :D ***
+
+
+In that game you scored 0 out of a possible 3, in 9 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ef00" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ef00">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ee90" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ee90">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Kitchen
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ee20" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ee20">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve"> Your name is Allyshun Smurf and you smell really bad! No wonder why they are hiding from you!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+  </item>
+  <item nodeId="node-0x41edb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bathroom
+This bathroon is kind of creepy! You don&apos;t think anyone is in the room. You see some footprints going east to the bedroom. Let&apos;s go check it out!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ed40" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ed40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+This is your room, you know every place to hide in here! You wouldn&apos;t doubt if someone was in here.
+
+You can see Bed, Rug and Desk here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d140" />
+      <child nodeId="node-0x41da70" />
+      <child nodeId="node-0x41ecd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ecd0">
+    <command xml:space="preserve">look in bed</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ec60" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ec60">
+    <command xml:space="preserve">look in rug</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ebf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ebf0">
+    <command xml:space="preserve">look in desk</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41eb80" />
+    </children>
+  </item>
+  <item nodeId="node-0x41eb80">
+    <command xml:space="preserve">look under desk</command>
+    <result xml:space="preserve">Oh my gosh! Blake was under the desk the whole time :o!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41eb10" />
+    </children>
+  </item>
+  <item nodeId="node-0x41eb10">
+    <command xml:space="preserve">take blake</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41eaa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41eaa0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bathroom
+This bathroon is kind of creepy! You don&apos;t think anyone is in the room. You see some footprints going east to the bedroom. Let&apos;s go check it out!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ea30" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ea30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e9c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e950" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e950">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e8e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bathroom
+This bathroon is kind of creepy! You don&apos;t think anyone is in the room. You see some footprints going east to the bedroom. Let&apos;s go check it out!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e870" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e870">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e800" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e800">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+Something smells bad! Smells like body odor! EWWW! Someone has to be in here! 
+
+You can see Tv, Couch, Lamp and Cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e790" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e790">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open Cabinet, revealing Rebecca.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e720" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e720">
+    <command xml:space="preserve">take rebecca</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e6b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e640" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e640">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e5d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e560" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e560">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You open Fridge, revealing Cookie.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e4f0">
+    <command xml:space="preserve">xme</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e480" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e480">
+    <command xml:space="preserve">x cookie</command>
+    <result xml:space="preserve">You see nothing special about Cookie.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e410" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e410">
+    <command xml:space="preserve">what is cookie</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e3a0">
+    <command xml:space="preserve">take cookie</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e330" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e330">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e2c0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock Wooden door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e250" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e250">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Cookie
+  Rebecca
+  Blake
+  key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e1e0">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock Wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e170" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e170">
+    <command xml:space="preserve">go in</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e100" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e100">
+    <command xml:space="preserve">go trhough</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e090" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e090">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open Wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41e020" />
+    </children>
+  </item>
+  <item nodeId="node-0x41e020">
+    <command xml:space="preserve">go in door</command>
+    <result xml:space="preserve">
+Backyard
+It is very chilly outside! We need to find people quick!You hear someone breathing, someone must be here! Let&apos;s find them!
+
+You can see Wooden door, Tree and Shed (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41dfb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41dfb0">
+    <command xml:space="preserve">look in tree</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41df40" />
+    </children>
+  </item>
+  <item nodeId="node-0x41df40">
+    <command xml:space="preserve">look in shed</command>
+    <result xml:space="preserve">You can&apos;t see inside, since Shed is closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ded0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ded0">
+    <command xml:space="preserve">open shed</command>
+    <result xml:space="preserve">You open Shed, revealing Joe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41de60" />
+    </children>
+  </item>
+  <item nodeId="node-0x41de60">
+    <command xml:space="preserve">take joe</command>
+    <result xml:space="preserve">
+
+    *** FINALLY! YOU FOUND EVERYONE! Maybe next time, you&apos;ll be hiding ;) ***
+
+
+In that game you scored 3 out of a possible 3, in 32 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ddf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ddf0">
+    <command xml:space="preserve">eat cookie</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41dd80" />
+    </children>
+  </item>
+  <item nodeId="node-0x41dd80">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Backyard
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41dd10" />
+    </children>
+  </item>
+  <item nodeId="node-0x41dd10">
+    <command xml:space="preserve">eat cookie</command>
+    <result xml:space="preserve">You eat Cookie. Not bad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41dca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41dca0">
+    <command xml:space="preserve">take frigge</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41dc30" />
+    </children>
+  </item>
+  <item nodeId="node-0x41dc30">
+    <command xml:space="preserve">take fridge</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41dbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41dbc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41db50" />
+    </children>
+  </item>
+  <item nodeId="node-0x41db50">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Kitchen
+You are super hungry! D: Let&apos;s eat something. If no one is in here, there might be people outside in the backyard north.
+
+You can see Wooden door and Fridge (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="381">YES</temporary>
+    <children>
+      <child nodeId="node-0x41dae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41dae0">
+    <command xml:space="preserve">take fridge</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="380">YES</temporary>
+  </item>
+  <item nodeId="node-0x41da70">
+    <command xml:space="preserve">look under desk</command>
+    <result xml:space="preserve">Oh my gosh! Blake was under the desk the whole time :o!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41da00" />
+    </children>
+  </item>
+  <item nodeId="node-0x41da00">
+    <command xml:space="preserve">take blake</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d990" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d990">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Blake
+  key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d920" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d920">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bathroom
+You see some footprints going east to the bedroom. Let&apos;s go check it out!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d8b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d840" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d840">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d7d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+You sense someone in the room, there is a cabinet, table and a tv. Maybe someone is behind it?
+
+You can see Tv and a cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d760" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d760">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the cabinet, revealing Rebecca.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d6f0">
+    <command xml:space="preserve">take Rebecca</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d680" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d680">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Rebecca
+  Blake
+  key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d610" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d610">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d5a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d530" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d530">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d4c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d450" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d450">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+Maybe people are outside in the Backyard north.
+
+You can see Wooden door and Fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d3e0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d370" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d370">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock Wooden door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d300" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d300">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock Wooden door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d290" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d290">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Wooden door)
+
+Backyard
+I hear someone breathing, someone must be here! Let&apos;s find them!
+
+You can see Wooden door, Tree and Shed (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d220" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d220">
+    <command xml:space="preserve">open shed</command>
+    <result xml:space="preserve">You open Shed, revealing Joe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="333">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d1b0">
+    <command xml:space="preserve">take joe</command>
+    <result xml:space="preserve">
+
+    *** FINALLY! YOU FOUND EVERYONE! ***
+
+
+In that game you scored 3 out of a possible 3, in 22 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="332">YES</temporary>
+  </item>
+  <item nodeId="node-0x41d140">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchem
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="115">YES</temporary>
+    <children>
+      <child nodeId="node-0x41d060" />
+      <child nodeId="node-0x41d0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41d0d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+bedroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="114">YES</temporary>
+  </item>
+  <item nodeId="node-0x41d060">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="90">YES</temporary>
+  </item>
+  <item nodeId="node-0x41cff0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="250">YES</temporary>
+    <children>
+      <child nodeId="node-0x41cf80" />
+    </children>
+  </item>
+  <item nodeId="node-0x41cf80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+There is a door going to the Backyard north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c260" />
+      <child nodeId="node-0x41cf10" />
+    </children>
+  </item>
+  <item nodeId="node-0x41cf10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41cea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41cea0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ce30" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ce30">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41cdc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41cdc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41cd50" />
+    </children>
+  </item>
+  <item nodeId="node-0x41cd50">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Kitchen
+There is a door going to the Backyard north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41cce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41cce0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41cc70" />
+    </children>
+  </item>
+  <item nodeId="node-0x41cc70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41cc00" />
+    </children>
+  </item>
+  <item nodeId="node-0x41cc00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41cb90" />
+    </children>
+  </item>
+  <item nodeId="node-0x41cb90">
+    <command xml:space="preserve">ss</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41cb20" />
+    </children>
+  </item>
+  <item nodeId="node-0x41cb20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Kitchen
+There is a door going to the Backyard north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41cab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41cab0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ca40" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ca40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c9d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Kitchen
+There is a door going to the Backyard north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c960" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c960">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c8f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c880" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c880">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c810" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c810">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c7a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c730" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c730">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c6c0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c650" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c650">
+    <command xml:space="preserve">open</command>
+    <result xml:space="preserve">What do you want to open?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c5e0">
+    <command xml:space="preserve">open wooden door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c570" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c570">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c500" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c500">
+    <command xml:space="preserve">open</command>
+    <result xml:space="preserve">What do you want to open?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c490" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c490">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You must name something more substantial.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c420" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c420">
+    <command xml:space="preserve">open door and n</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c3b0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Wooden door
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c340" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c340">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c2d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="205">YES</temporary>
+  </item>
+  <item nodeId="node-0x41c260">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c1f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bedroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c180" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c180">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bathroom
+You see some footprints going east to the bedroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c110" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c110">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Basement
+Your friends decided to play a fun game of hide and seek, but there is a twist! The game will take place in the dark and to find people you need to see them with your flashlight. Ready? Go!
+
+Everyone starts in the basement! You are the seeker and you need to find everyone. There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c0a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+You sense someone in the room, there is a cabinet, table and a tv. Maybe someone is behind it?
+
+You can see Tv and a cabinet (in which is Rebecca) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x41c030" />
+    </children>
+  </item>
+  <item nodeId="node-0x41c030">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Basement
+Your friends decided to play a fun game of hide and seek, but there is a twist! The game will take place in the dark and to find people you need to see them with your flashlight. Ready? Go!
+
+Everyone starts in the basement! You are the seeker and you need to find everyone. There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x41bfc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41bfc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="127">YES</temporary>
+  </item>
+  <item nodeId="node-0x41bf50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+You sense someone in the room, there is a cabinet, table and a tv. Maybe someone is behind it?
+
+You can see Tv and a cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="303">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b150" />
+      <child nodeId="node-0x41bee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41bee0">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the cabinet, revealing Rebecca.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="303">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ba10" />
+      <child nodeId="node-0x41be70" />
+    </children>
+  </item>
+  <item nodeId="node-0x41be70">
+    <command xml:space="preserve">take Rebecca</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="303">YES</temporary>
+    <children>
+      <child nodeId="node-0x41baf0" />
+      <child nodeId="node-0x41bcb0" />
+      <child nodeId="node-0x41be00" />
+    </children>
+  </item>
+  <item nodeId="node-0x41be00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="303">YES</temporary>
+    <children>
+      <child nodeId="node-0x41bd90" />
+    </children>
+  </item>
+  <item nodeId="node-0x41bd90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bathroom
+You see some footprints going east to the bedroom. Let&apos;s go check it out!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="303">YES</temporary>
+    <children>
+      <child nodeId="node-0x41bd20" />
+    </children>
+  </item>
+  <item nodeId="node-0x41bd20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+You can see Bed (in which is Blake) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="302">YES</temporary>
+  </item>
+  <item nodeId="node-0x41bcb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="250">YES</temporary>
+    <children>
+      <child nodeId="node-0x41bc40" />
+    </children>
+  </item>
+  <item nodeId="node-0x41bc40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="250">YES</temporary>
+    <children>
+      <child nodeId="node-0x41bbd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41bbd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Basement
+Your friends decided to play a fun game of hide and seek, but there is a twist! The game will take place in the dark and to find people you need to see them with your flashlight. Ready? Go!
+
+Everyone starts in the basement! You are the seeker and you need to find everyone. There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="250">YES</temporary>
+    <children>
+      <child nodeId="node-0x41bb60" />
+    </children>
+  </item>
+  <item nodeId="node-0x41bb60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+Maybe people are outside in the Backyard north.
+
+You can see Wooden door and Fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="249">YES</temporary>
+  </item>
+  <item nodeId="node-0x41baf0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="239">YES</temporary>
+    <children>
+      <child nodeId="node-0x41ba80" />
+    </children>
+  </item>
+  <item nodeId="node-0x41ba80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Basement
+Your friends decided to play a fun game of hide and seek, but there is a twist! The game will take place in the dark and to find people you need to see them with your flashlight. Ready? Go!
+
+Everyone starts in the basement! You are the seeker and you need to find everyone. There is the bathroom south, the living room west and the kitchen east of the basement
+
+Joe follows right behind you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="238">YES</temporary>
+  </item>
+  <item nodeId="node-0x41ba10">
+    <command xml:space="preserve">take rebecca</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b9a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b930" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b930">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Basement
+It doesn&apos;t seem like anyone is hiding in the basement, so let&apos;s go somewhere else! There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b8c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+Maybe people are outside in the Backyard north.
+
+You can see Wooden door and Fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b850" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b850">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You open Fridge.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b7e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b770" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b770">
+    <command xml:space="preserve">open shed</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b700" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b700">
+    <command xml:space="preserve">take joe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b690" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b690">
+    <command xml:space="preserve">n\</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b620" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b620">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Wooden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b5b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b540" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b540">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bedroom
+You can see Bed (in which is Blake) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b4d0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+Maybe people are outside in the Backyard north.
+
+You can see Wooden door and Fridge (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b460" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b460">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bedroom
+You can see Bed (in which is Blake) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b3f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b380" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b380">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+Maybe people are outside in the Backyard north.
+
+You can see Wooden door and Fridge (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b310" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b310">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bedroom
+You can see Bed (in which is Blake) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b2a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b230" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b230">
+    <command xml:space="preserve">take blake</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="297">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b1c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Blake
+  Rebecca
+  key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+  </item>
+  <item nodeId="node-0x41b150">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Basement
+Your friends decided to play a fun game of hide and seek, but there is a twist! The game will take place in the dark and to find people you need to see them with your flashlight. Ready? Go!
+
+Everyone starts in the basement! You are the seeker and you need to find everyone. There is the bathroom south, the living room west and the kitchen east of the basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b0e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b0e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bathroom
+You see some footprints going east to the bedroom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b070" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b070">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Bedroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41b000" />
+    </children>
+  </item>
+  <item nodeId="node-0x41b000">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41af90" />
+    </children>
+  </item>
+  <item nodeId="node-0x41af90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41af20" />
+    </children>
+  </item>
+  <item nodeId="node-0x41af20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="103">YES</temporary>
+    <children>
+      <child nodeId="node-0x41aeb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x41aeb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="102">YES</temporary>
+  </item>
+</Skein>
